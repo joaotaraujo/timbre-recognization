@@ -8,7 +8,7 @@ This area is very important for the implementation of search, recommendation and
 In this way, the objective of this work is the development of a system tone classification system to automatically distinguish the sound produced by a guitar and a bass.
 It is worth mentioning that more relevant than the application itself, studies of sound properties are presented, of the techniques used to extract them efficiently and how to classify them based on the combination of of audio descriptors and learning algorithms for machine.
 
-There are 4 algorithms here:
+There are 5 algorithms of classification here:
 * Naive bayes implemented by me;
 * Naive bayes by sklearn;
 * Decision tree;
