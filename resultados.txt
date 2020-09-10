@@ -1,0 +1,199 @@
+#########################################
+#### Using cross-validation( k = 5 ) ####
+#########################################
+
+# NB:      Naive Bayes (Sklearn)        #
+# SVC:     Suport Vector Classification #
+# DecTree: Decision Tree (Entropy)      #
+# NBImp:   Naive Bayes Implemented      #
+# Emsemb:  Emsemble (Bagging)           #
+
+##########################
+# Number of Features = 2 #
+##########################
+      k = 1
+      NB:      67.9 %
+      SVC:     65.6 %
+      DecTree: 84.6 %
+      NBImp:   67.9 %
+      Emsemb:  78.9 %
+
+      k = 2
+      NB:      70.2 %
+      SVC:     67.6 %
+      DecTree: 85.7 %
+      NBImp:   70.2 %
+      Emsemb:  79.5 %
+
+      k = 3
+      NB:      65.8 %
+      SVC:     62.0 %
+      DecTree: 84.4 %
+      NBImp:   65.8 %
+      Emsemb:  76.3 %
+
+      k = 4
+      NB:      68.3 %
+      SVC:     65.4 %
+      DecTree: 85.1 %
+      NBImp:   67.8 %
+      Emsemb:  78.8 %
+
+      k = 5
+      NB:      65.0 %
+      SVC:     64.9 %
+      DecTree: 84.8 %
+      NBImp:   65.0 %
+      Emsemb:  77.9 %
+
+##########################
+# Number of Features = 3 #
+##########################
+      k = 1
+      NB:      67.9 %
+      SVC:     71.3 %
+      DecTree: 90.8 %
+      NBImp:   68.4 %
+      Emsemb:  80.2 %
+
+      k = 2
+      NB:      69.8 %
+      SVC:     76.0 %
+      DecTree: 92.0 %
+      NBImp:   69.6 %
+      Emsemb:  85.1 %
+
+      k = 3
+      NB:      71.9 %
+      SVC:     76.2 %
+      DecTree: 94.2 %
+      NBImp:   72.1 %
+      Emsemb:  87.8 %
+
+      k = 4
+      NB:      71.4 %
+      SVC:     72.8 %
+      DecTree: 92.2 %
+      NBImp:   71.4 %
+      Emsemb:  84.0 %
+
+      k = 5
+      NB:      68.6 %
+      SVC:     73.7 %
+      DecTree: 91.1 %
+      NBImp:   69.4 %
+      Emsemb:  84.5 %
+
+##########################
+# Number of Features = 5 #
+##########################
+      k = 1
+      NB:      77.1 %
+      SVC:     81.1 %
+      DecTree: 92.3 %
+      NBImp:   76.0 %
+      Emsemb:  83.8 %
+
+      k = 2
+      NB:      74.8 %
+      SVC:     81.2 %
+      DecTree: 91.5 %
+      NBImp:   74.9 %
+      Emsemb:  82.5 %
+
+      k = 3
+      NB:      72.1 %
+      SVC:     78.9 %
+      DecTree: 91.9 %
+      NBImp:   72.4 %
+      Emsemb:  82.3 %
+
+      k = 4
+      NB:      74.7 %
+      SVC:     79.9 %
+      DecTree: 93.6 %
+      NBImp:   73.7 %
+      Emsemb:  82.2 %
+
+      k = 5
+      NB:      73.9 %
+      SVC:     80.3 %
+      DecTree: 92.8 %
+      NBImp:   73.8 %
+      Emsemb:  82.9 %
+
+###########################
+# Number of Features = 6 #
+###########################
+      k = 1
+      NB:      79.2 %
+      SVC:     80.5 %
+      DecTree: 91.7 %
+      NBImp:   79.4 %
+      Emsemb:  83.3 %
+
+      k = 2
+      NB:      78.8 %
+      SVC:     78.2 %
+      DecTree: 89.0 %
+      NBImp:   78.5 %
+      Emsemb:  82.0 %
+
+      k = 3
+      NB:      78.7 %
+      SVC:     79.8 %
+      DecTree: 93.3 %
+      NBImp:   78.5 %
+      Emsemb:  82.9 %
+
+      k = 4
+      NB:      81.1 %
+      SVC:     82.3 %
+      DecTree: 90.1 %
+      NBImp:   81.4 %
+      Emsemb:  85.5 %
+
+      k = 5
+      NB:      79.3 %
+      SVC:     79.6 %
+      DecTree: 91.7 %
+      NBImp:   79.3 %
+      Emsemb:  82.9 %
+
+##########################
+# Number of Features = 8 #
+##########################
+      k = 1
+      NB:      78.3 %
+      SVC:     79.1 %
+      DecTree: 88.3 %
+      NBImp:   80.1 %
+      Emsemb:  83.4 %
+
+      k = 2
+      NB:      81.4 %
+      SVC:     81.5 %
+      DecTree: 89.3 %
+      NBImp:   80.4 %
+      Emsemb:  84.9 %
+
+      k = 3
+      NB:      78.7 %
+      SVC:     78.7 %
+      DecTree: 90.0 %
+      NBImp:   79.3 %
+      Emsemb:  83.5 %
+
+      k = 4
+      NB:      79.0 %
+      SVC:     80.8 %
+      DecTree: 92.4 %
+      NBImp:   79.4 %
+      Emsemb:  85.3 %
+
+      k = 5
+      NB:      79.5 %
+      SVC:     81.1 %
+      DecTree: 91.2 %
+      NBImp:   77.4 %
+      Emsemb:  85.1 %
